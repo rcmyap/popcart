@@ -12,6 +12,7 @@ $(function(){
 			$(".progress").hide();
 		},
 		complete:function(response){
+			$(".progress").hide();
 			$("#successAlert").show().delay(1000).fadeOut();
 		}
 	});
