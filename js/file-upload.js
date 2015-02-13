@@ -13,6 +13,10 @@ $(function(){
 		},
 		complete:function(response){
 			$(".progress").hide();
+			$("#name").val("");
+			$("#price").val("");
+			$("#desc").val("");
+			$("#stock").val("");
 			$("#successAlert").show().delay(1000).fadeOut();
 		}
 	});
